@@ -1,0 +1,19 @@
+.trash{
+    display:flex;
+    flex-direction:row;
+    padding: 12px 0px 12px 4px;
+    align-items:center;
+    gap:18px;
+    width: 240px;
+    height: 48px;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    border-color:inherit;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #353535;
+}

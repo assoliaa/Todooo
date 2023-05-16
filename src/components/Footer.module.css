@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081E34;
+    padding-top:270px;
+}

@@ -1,0 +1,44 @@
+.deletebtn{
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+div{
+    padding:0;
+    margin:0;
+}
+.delete{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 41px;
+    align-items: center;
+    border-radius: 15px 15px 0px 0px;
+    border-color: #E4E6E7;
+    background: #E4E6E7;
+    border-bottom:none;
+    gap:18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.moveback{
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    height: 41px;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px ;
+    border-color: #E4E6E7;
+    background: #E4E6E7;
+    gap:18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+

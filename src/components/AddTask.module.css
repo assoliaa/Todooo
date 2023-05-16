@@ -1,0 +1,50 @@
+.addtask{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    width: 268px;
+    height: 234px;
+    background-color: #E4E6E7;
+    border-radius: 12px;
+    position: absolute;
+    left: 1045px;
+    top: 92px;
+}
+
+.text{
+    text-align: start;
+    width: 256px;
+    height: 140px;
+    background: #FFFFFF;
+    border-radius:8px;
+    border-color: #FFFFFF;
+    outline:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.addbtn{
+  width: 76px;
+  height: 40px;
+  background: linear-gradient(0deg, #081E34, #081E34);
+  color:#FFFFFF;
+  border-radius: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}

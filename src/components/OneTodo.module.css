@@ -1,0 +1,51 @@
+.column{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    width: 654px;
+}
+
+.Todo{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:12px;
+}
+
+.Highlighted{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap:12px;   
+    background: #E4E6E7;
+}
+
+.content{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #151517;
+}
+
+.marked{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #959595;
+    text-decoration: line-through;
+}
+
+.checkbox{
+    width: 16px;
+    height: 16px;
+    border: 1.4px solid #AEAEAE;
+    border-radius: 4px;
+}
+
+input[type='checkbox'] {
+    accent-color: #712FFF
+}
